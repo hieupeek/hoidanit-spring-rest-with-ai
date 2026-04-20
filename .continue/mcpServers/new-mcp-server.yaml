@@ -1,0 +1,14 @@
+name: Grapuco
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: grapuco
+    command: /usr/local/bin/npx
+    args:
+      - -y
+      - mcp-remote
+      - https://api.grapuco.com/mcp
+      - --header
+      - "Authorization: Bearer gyc_sk_1b1affb73cdf8e72457bc316d75bbd35526ac282da8048ba6718fddbd499f5d6"
+    env:
+      PATH: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
