@@ -41,8 +41,7 @@ raw/
 ├── architecture/    ← ADR (Architecture Decision Records), diagrams
 ├── database/        ← Schema SQL, ERD, migration files
 ├── security/        ← JWT docs, Spring Security config notes
-├── lessons/         ← Bugs đã fix, gotchas, lessons learned
-└── assets/          ← Ảnh, diagrams (download về local)
+└── lessons/         ← Bugs đã fix, gotchas, lessons learned
 ```
 
 Tạo bằng lệnh:
@@ -99,19 +98,30 @@ Hãy ingest nó theo CLAUDE.md:
 # Tên Concept
 
 **Concept**: 1-2 câu mô tả đây là gì.
-**Related Skills**: [skill liên quan nếu có]
-**Sources**: [file raw/ nguồn]
-**Last updated**: 2026-04-20
+**Related Pages**: [[related-page-1]], [[related-page-2]]
+**Sources**: `raw/path/to/source.md`
+**Last updated**: YYYY-MM-DD
 
 ---
 
+## Overview
+Tóm tắt ngắn — đây là gì và vai trò trong hệ thống.
+
 ## Detailed Explanation
-Nội dung chính...
+Nội dung kỹ thuật chính. Ưu tiên ví dụ cụ thể hơn mô tả trừu tượng.
 
 ## Architecture / Implementation Notes
 Code, diagram, constraints...
 
-## Related concepts
+```java
+// Ví dụ code liên quan
+```
+
+## Gotchas & Lessons Learned
+- Những cạm bẫy đã gặp trong project
+- Edge cases phát hiện khi test hoặc production
+
+## Related Concepts
 - [[related-concept-1]]
 - [[related-concept-2]]
 ```
